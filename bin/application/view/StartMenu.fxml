@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.StartMenuController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="450.0">
+         <children>
+            <ImageView fitHeight="450.0" fitWidth="450.0">
+               <image>
+                  <Image url="@bg2.gif" />
+               </image>
+            </ImageView>
+            <Button fx:id="NewGame" layoutX="161.0" layoutY="250.0" mnemonicParsing="false" onAction="#newGame" prefHeight="31.0" prefWidth="130.0" text="New Game">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font></Button>
+            <Button fx:id="HighScores" layoutX="161.0" layoutY="332.0" mnemonicParsing="false" onAction="#openScores" prefHeight="31.0" prefWidth="130.0" text="High Scores">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font></Button>
+            <Button fx:id="Exit" layoutX="161.0" layoutY="402.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="31.0" prefWidth="130.0" text="Exit">
+               <font>
+                  <Font name="Bell MT" size="15.0" />
+               </font></Button>
+            <ImageView fitHeight="131.0" fitWidth="298.0" layoutX="76.0" layoutY="25.0">
+               <image>
+                  <Image url="@bg2.gif" />
+               </image>
+            </ImageView>
+            <Label layoutX="130.0" layoutY="106.0" prefHeight="100.0" prefWidth="207.0" text="SOLITAIRE" textFill="WHITE">
+               <font>
+                  <Font name="Bell MT" size="36.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
